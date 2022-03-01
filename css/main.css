@@ -32,14 +32,48 @@ body {
 }
 
 #separador1 {
-    height: 80px;
+    height: 10vh;
 }
 
 #separador2 {
-    height: 80px;
+    height: 10vh;
 }
 
 .contenedorinstalaciones {
+    text-align: center;
+    color: white;
+}
+
+#separador4 {
+    height: 10vh;
+}
+
+#separador5 {
+    height: 10vh;
+}
+
+.contenedor {
+    color: white;
+    padding: 1vh 1vh 1vh 1vh;
+    border-radius: 1em;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#separador6 {
+    height: 10vh;
+}
+
+#separador7 {
+    height: 10vh;
+}
+
+#separador8 {
+    height: 10vh;
+}
+
+#contenedoragenda {
     text-align: center;
     color: white;
 }
