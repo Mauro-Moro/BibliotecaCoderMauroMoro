@@ -30,3 +30,16 @@ body {
     font-weight: 400;
     font-size: 52px;
 }
+
+#separador1 {
+    height: 80px;
+}
+
+#separador2 {
+    height: 80px;
+}
+
+.contenedorinstalaciones {
+    text-align: center;
+    color: white;
+}
