@@ -1,0 +1,39 @@
+@import "variables.scss";
+
+body {
+    background-image: url(../images/foto1.jpg);
+}
+
+
+#prueba1 {
+    height: 800px;
+}
+
+#prueba2 {
+    height: 100%;
+}
+
+#primera {
+    height: 30%;
+}
+
+#segunda {
+    height: 30%;
+    h1 {
+        font-weight: 400;
+        font-size: 52px;
+    }
+}
+
+#tercera {
+    height: 30%;
+}
+
+
+@import "instalaciones.scss";
+
+@import "agenda.scss";
+@import "contacto.scss";
+
+
+
