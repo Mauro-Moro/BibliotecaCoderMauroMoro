@@ -29,6 +29,10 @@ body {
     height: 30%;
 }
 
+li:hover {
+    translate: 2px 2px;
+}
+
 
 @import "instalaciones.scss";
 

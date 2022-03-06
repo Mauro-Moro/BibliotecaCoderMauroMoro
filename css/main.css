@@ -19,6 +19,9 @@ body {
 #tercera {
   height: 30%; }
 
+li:hover {
+  translate: 2px 2px; }
+
 #separador1 {
   height: 10vh;
   /*intente poner a 10vh como una variable ya que se repetia pero me crasheaba el css y no se aplicaba*/ }
