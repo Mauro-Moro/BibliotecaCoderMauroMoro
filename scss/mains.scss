@@ -33,6 +33,11 @@ li:hover {
     translate: 2px 2px;
 }
 
+div {
+    img:hover {
+        scale: (1.05);
+    }
+}
 
 @import "instalaciones.scss";
 

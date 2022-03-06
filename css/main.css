@@ -22,6 +22,9 @@ body {
 li:hover {
   translate: 2px 2px; }
 
+div img:hover {
+  scale: 1.05; }
+
 #separador1 {
   height: 10vh;
   /*intente poner a 10vh como una variable ya que se repetia pero me crasheaba el css y no se aplicaba*/ }
