@@ -1,0 +1,3 @@
+Explicacion del seo
+Agregue la etiqueta title en las diversas secciones, tambien se agregon las respectivas etiquetas meta keywords y meta description.
+Modifique el exceso de divs y la falta de etiquetas semanticas, al reemplazar los divs por sections y articles segun correspondiera.
