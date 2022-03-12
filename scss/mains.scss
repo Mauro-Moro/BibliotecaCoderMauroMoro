@@ -44,6 +44,24 @@ div {
 @import "agenda.scss";
 @import "contacto.scss";
 
+.letracontacto {
+    p {
+        margin-bottom: 0rem;
+    }
+    p:hover {
+        translate: 1px 1px;
+    }
+}
+.letracontactoblanco {
+    @extend .letracontacto;
+    color: white;
+}
+.letracontactonegro {
+    @extend .letracontacto;
+    color:black;
+}
+
+
 
 
 

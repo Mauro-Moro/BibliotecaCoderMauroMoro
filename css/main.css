@@ -64,3 +64,15 @@ div img:hover {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FF6B6B, #556270);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.letracontacto p, .letracontactoblanco p, .letracontactonegro p {
+  margin-bottom: 0rem; }
+
+.letracontacto p:hover, .letracontactoblanco p:hover, .letracontactonegro p:hover {
+  translate: 1px 1px; }
+
+.letracontactoblanco {
+  color: white; }
+
+.letracontactonegro {
+  color: black; }
