@@ -1,15 +1,16 @@
-#separador6 {
-    height: 10vh;
+@mixin separadores ($alto) {
+    height: $alto;
 }
 
+#separador6 {
+    @include separadores(10vh)
+}
 #separador7 {
     height: 10vh;
 }
-
 #separador8 {
-    height: 10vh;
+    @include separadores(10vh)
 }
-
 #contenedoragenda {
     text-align: center;
     color: var($colorLetras);

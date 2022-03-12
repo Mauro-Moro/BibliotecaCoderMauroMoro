@@ -1,11 +1,12 @@
+@mixin separadores ($alto) {
+    height: $alto;
+}
 #separador4 {
-    height: 10vh;
+    @include separadores(10vh)
 }
-
 #separador5 {
-    height: 10vh;
+    @include separadores(10vh)
 }
-
 .contenedor {
     color: var($colorLetras);
     padding: 1vh 1vh 1vh 1vh;

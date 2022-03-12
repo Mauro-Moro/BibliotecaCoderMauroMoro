@@ -1,11 +1,12 @@
+@mixin separadores ($alto) {
+    height: $alto;
+}
 #separador1 {
-    height: 10vh; /*intente poner a 10vh como una variable ya que se repetia pero me crasheaba el css y no se aplicaba*/
+    @include separadores(10vh)
 }
-
 #separador2 {
-    height: 10vh;
+    @include separadores(10vh)
 }
-
 .contenedorinstalaciones {
     text-align: center;
     color: var($colorLetras);
