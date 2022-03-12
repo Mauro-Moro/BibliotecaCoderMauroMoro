@@ -38,6 +38,11 @@ div {
         scale: (1.05);
     }
 }
+article {
+    img:hover {
+        scale: (1.05);
+    }
+}
 
 @import "instalaciones.scss";
 
@@ -60,6 +65,7 @@ div {
     @extend .letracontacto;
     color:black;
 }
+
 
 
 
