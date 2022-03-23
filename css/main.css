@@ -79,3 +79,43 @@ article img:hover {
 
 .letracontactonegro {
   color: black; }
+
+#contenedorcentrar {
+  display: flex;
+  justify-content: center; }
+
+/* iconos footer offcanvas*/
+#hijo3 a {
+  height: 40px;
+  width: 40px;
+  font-size: 35px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  line-height: 40px; }
+  #hijo3 a #hijo3 a:hover {
+    color: black;
+    background-color: gray; }
+
+/*  fin iconos footer offcanvas*/
+#offcanvascuerpo {
+  background-color: #1C1C1C; }
+
+#contenedorcolorletras {
+  color: white; }
+
+#offcanvasheader {
+  color: #1C1C1C; }
+
+@media only screen and (max-width: 999px) {
+  #ocultar {
+    visibility: hidden; }
+  #ocultar2 p {
+    overflow: hidden; } }
+
+@media only screen and (max-width: 500px) {
+  #offcanvasbody {
+    max-height: 400px; }
+  #ocultar2 {
+    max-height: 300px; } }
